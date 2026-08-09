@@ -1,6 +1,6 @@
-Learning Profile
+# Learning Profile
 
-Purpose
+## Purpose
 
 This document is a living profile of how I learn best, what I currently understand, where my technical foundations are incomplete, and how the instructional approach should adapt over time.
 
@@ -14,9 +14,9 @@ The goal is to continuously improve the instructional system based on demonstrat
 
 ---
 
-Current Learning Preferences
+# Current Learning Preferences
 
-Instructor-Led Conversation First
+## Instructor-Led Conversation First
 
 I learn particularly well through spoken conversation for conceptual material.
 
@@ -60,7 +60,7 @@ Voice should not be forced when text, code, diagrams, logs, repository files, st
 
 ---
 
-Voice and Text Should Be Used Deliberately
+## Voice and Text Should Be Used Deliberately
 
 Different learning tasks benefit from different interaction modes.
 
@@ -105,7 +105,7 @@ I should not have to independently notice that voice has become inefficient for 
 
 ---
 
-Fresh-Conversation Workflow
+## Fresh-Conversation Workflow
 
 A new ChatGPT conversation should not be started after every lesson.
 
@@ -141,7 +141,7 @@ The handoff prompt is a convenience layer for restoring context efficiently.
 
 ---
 
-Granularity Preference
+# Granularity Preference
 
 I prefer detailed explanations when the detail improves my understanding.
 
@@ -179,7 +179,7 @@ The amount of explanation should adapt to demonstrated understanding rather than
 
 ---
 
-Current Pacing Evidence
+# Current Pacing Evidence
 
 Actual coursework has shown that I have stronger high-level technical intuition than some of the original starting assumptions suggested.
 
@@ -209,7 +209,7 @@ It means distinguishing between:
 
 ---
 
-Understanding Before Implementation
+# Understanding Before Implementation
 
 I want to understand important concepts before relying heavily on tools or abstractions.
 
@@ -237,7 +237,7 @@ The curriculum should spiral between:
 
 ---
 
-Systems Thinking
+# Systems Thinking
 
 I prefer understanding how pieces connect.
 
@@ -260,7 +260,7 @@ This should remain one of the major organizing principles of the course.
 
 ---
 
-Practical Learning
+# Practical Learning
 
 I want practical examples and hands-on labs.
 
@@ -280,7 +280,7 @@ When a lab requires code, commands, debugging, repository changes, diagrams, or 
 
 ---
 
-Assessment Preference
+# Assessment Preference
 
 I want assessments to help determine whether I genuinely understand a concept.
 
@@ -309,7 +309,7 @@ Short verbal checkpoints are appropriate when they provide real diagnostic value
 
 ---
 
-Current Technical Position
+# Current Technical Position
 
 I am not starting from zero.
 
@@ -337,7 +337,7 @@ The course should continue diagnosing actual understanding rather than assuming 
 
 ---
 
-Known Strengths
+# Known Strengths
 
 Current demonstrated or likely strengths include:
 
@@ -357,9 +357,9 @@ These should continue to be tested and refined through actual work.
 
 ---
 
-Known Learning Risks
+# Known Learning Risks
 
-Instruction Becoming Too Socratic
+## Instruction Becoming Too Socratic
 
 A demonstrated risk is allowing the lesson to become a sequence of instructor questions rather than actual teaching.
 
@@ -373,7 +373,7 @@ Correction:
 
 ---
 
-Repetition After Understanding Is Demonstrated
+## Repetition After Understanding Is Demonstrated
 
 A demonstrated risk is repeatedly circling the same foundational mental model after I have already shown I understand it.
 
@@ -388,7 +388,7 @@ Correction:
 
 ---
 
-Taking Steps That Are Too Large
+## Taking Steps That Are Too Large
 
 A recurring risk is attempting a project or implementation step that contains too many unfamiliar concepts at once.
 
@@ -408,7 +408,7 @@ It should not be interpreted as requiring artificially tiny conversational teach
 
 ---
 
-Allowing AI to Create False Progress
+## Allowing AI to Create False Progress
 
 Because modern AI tools can generate code and applications quickly, there is a risk of producing working systems without actually understanding them.
 
@@ -422,7 +422,7 @@ Only the first two should count as meaningful learning progress.
 
 ---
 
-Recognizing Words Without Understanding Them
+## Recognizing Words Without Understanding Them
 
 Familiar terminology can create an illusion of mastery.
 
@@ -439,7 +439,7 @@ These checks should be selective rather than constant.
 
 ---
 
-Curiosity Causing Scope Drift
+## Curiosity Causing Scope Drift
 
 I frequently generate additional questions and ideas while learning.
 
@@ -454,7 +454,7 @@ The instructor should distinguish between:
 
 ---
 
-Conversational Drift Ahead of the Syllabus
+## Conversational Drift Ahead of the Syllabus
 
 Another demonstrated risk is allowing a voice conversation to naturally drift into later material and then accidentally treating that material as though the formal lesson sequence has been completed.
 
@@ -471,7 +471,7 @@ When later concepts appear naturally:
 
 ---
 
-AI and Coding Tools
+# AI and Coding Tools
 
 I want to learn how to use AI development tools effectively, but I do not want my technical ability to become dependent on any single product.
 
@@ -495,7 +495,7 @@ Specific tools may be used as case studies, but transferable concepts should com
 
 ---
 
-Git and GitHub
+# Git and GitHub
 
 Git and GitHub should be treated as foundational engineering skills.
 
@@ -521,7 +521,7 @@ The AI Curriculum repository itself should eventually become part of this learni
 
 ---
 
-Professional Direction
+# Professional Direction
 
 This learning journey should support practical capability that transfers into professional environments involving AI operations, AI enablement, AI-assisted workflows, and modern technical systems.
 
@@ -543,7 +543,7 @@ Examples include:
 
 ---
 
-Home Lab and Personal Building Goals
+# Home Lab and Personal Building Goals
 
 The learning journey should also support hands-on experimentation outside of work.
 
@@ -572,7 +572,7 @@ Scale infrastructure when the learning goals justify it.
 
 ---
 
-Reflection Questions
+# Reflection Questions
 
 At the end of meaningful lessons, modules, labs, or learning sessions, the instructor should periodically consider:
 
@@ -598,7 +598,7 @@ Important findings should be captured when they are likely to improve future ins
 
 ---
 
-Adaptation Rules
+# Adaptation Rules
 
 Teaching tactics may change as evidence accumulates.
 
@@ -619,7 +619,7 @@ The learning system should adapt without constantly rewriting its core philosoph
 
 ---
 
-Learning Profile Version
+# Learning Profile Version
 
 Version: 1.1
 
