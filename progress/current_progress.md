@@ -1,6 +1,6 @@
-Current Progress
+# Current Progress
 
-Purpose
+## Purpose
 
 This file is the living progress record for the AI Curriculum.
 
@@ -23,7 +23,7 @@ This file should be updated at meaningful learning boundaries, especially before
 
 ---
 
-Current Course Status
+# Current Course Status
 
 Course Stage: Active Coursework
 
@@ -49,9 +49,9 @@ Learning Status: Ready to continue
 
 ---
 
-Module 0.1 Progress
+# Module 0.1 Progress
 
-Lesson 1 — What Does a Computer Actually Do?
+## Lesson 1 — What Does a Computer Actually Do?
 
 Status: Completed
 
@@ -86,7 +86,7 @@ Demonstrated understanding:
 
 ---
 
-Lesson 2 — What Is Computation?
+## Lesson 2 — What Is Computation?
 
 Status: Completed
 
@@ -108,7 +108,7 @@ The learner does not need further basic repetition of input → computation → 
 
 ---
 
-Lesson 3 — Hardware Versus Software
+## Lesson 3 — Hardware Versus Software
 
 Status: Completed at the level required for Module 0.1
 
@@ -129,7 +129,7 @@ If a web application does not load, the learner naturally identified the network
 
 ---
 
-Lesson 4 — What Is a Program?
+## Lesson 4 — What Is a Program?
 
 Status: Completed
 
@@ -153,7 +153,7 @@ The learner also correctly distinguished visible program output from the underly
 
 ---
 
-Lesson 5 — What Is Data?
+## Lesson 5 — What Is Data?
 
 Status: Completed, with one useful clarification
 
@@ -168,7 +168,7 @@ Covered:
 - Higher-level representations allow us to think in terms of characters, pixels, numbers, records, and other useful abstractions.
 - Meaning depends on interpretation and representation, not merely on the raw bit pattern.
 
-Clarification Discovered
+### Clarification Discovered
 
 When discussing an image, the learner initially described the squares as corresponding directly to the binary code needed to display the picture.
 
@@ -180,7 +180,7 @@ This was a refinement rather than a major misconception.
 
 ---
 
-Material Introduced Ahead of the Formal Sequence
+# Material Introduced Ahead of the Formal Sequence
 
 During the session, the conversation occasionally moved ahead of the formal syllabus.
 
@@ -204,9 +204,9 @@ The next session should resume at Lesson 6 and establish these ideas cleanly in 
 
 ---
 
-Current Understanding Status
+# Current Understanding Status
 
-Strong / Functional
+## Strong / Functional
 
 The learner currently demonstrates functional or stronger understanding of:
 
@@ -227,7 +227,7 @@ Do not artificially slow the course when demonstrated understanding is already s
 
 ---
 
-Developing
+## Developing
 
 The following have been introduced but should be formally developed according to the syllabus:
 
@@ -241,7 +241,7 @@ The following have been introduced but should be formally developed according to
 
 ---
 
-Needs Reinforcement
+## Needs Reinforcement
 
 No major reinforcement queue currently exists.
 
@@ -253,11 +253,11 @@ This does not require dedicated remediation unless it reappears.
 
 ---
 
-Learning Evidence and Instructional Adaptations
+# Learning Evidence and Instructional Adaptations
 
 Several durable learning-style findings were established during the first active coursework sessions.
 
-Instructor-Led Teaching Works Better Than Continuous Socratic Teaching
+## Instructor-Led Teaching Works Better Than Continuous Socratic Teaching
 
 The learner prefers the instructor to teach coherent conceptual chunks first.
 
@@ -276,7 +276,7 @@ Teach → Example → Connect → Checkpoint → Continue
 
 ---
 
-Avoid Repetition After Demonstrated Understanding
+## Avoid Repetition After Demonstrated Understanding
 
 Repeatedly restating the same mental model after the learner has demonstrated understanding reduces momentum.
 
@@ -290,7 +290,7 @@ Granularity should mean sufficient depth and clear decomposition, not artificial
 
 ---
 
-Voice Is Preferred for Conceptual Learning
+## Voice Is Preferred for Conceptual Learning
 
 Voice conversation works well for:
 
@@ -314,7 +314,7 @@ The instructor cannot assume the learner wants a new chat after each lesson.
 
 ---
 
-Text Should Be Used Deliberately for Labs
+## Text Should Be Used Deliberately for Labs
 
 When a lesson reaches a point where code, commands, repository editing, debugging, diagrams, structured data, or other visual material becomes central, the instructor should explicitly recommend temporarily leaving voice and switching to text.
 
@@ -326,7 +326,7 @@ This should be treated as a normal part of the curriculum rather than a disrupti
 
 ---
 
-Chat Continuity Strategy
+## Chat Continuity Strategy
 
 Do not create a new conversation after every lesson.
 
@@ -350,7 +350,7 @@ When transitioning, generate a compact startup/handoff prompt.
 
 ---
 
-Labs Completed
+# Labs Completed
 
 None yet.
 
@@ -364,7 +364,7 @@ When a lab begins, the instructor should explicitly indicate whether the learner
 
 ---
 
-Assessments Completed
+# Assessments Completed
 
 No formal assessment completed yet.
 
@@ -374,7 +374,7 @@ The formal Module 0.1 assessment remains ahead.
 
 ---
 
-Projects Completed
+# Projects Completed
 
 None as part of the formal curriculum.
 
@@ -382,7 +382,7 @@ Existing projects may be used as examples when they illuminate a concept without
 
 ---
 
-Reinforcement Queue
+# Reinforcement Queue
 
 No dedicated reinforcement currently required.
 
@@ -392,7 +392,7 @@ Monitor:
 
 ---
 
-Question / Curiosity Notes
+# Question / Curiosity Notes
 
 The learner asked when labs would begin and confirmed that hands-on work remains an important expected part of the curriculum.
 
@@ -402,7 +402,7 @@ Do not allow the course to become an extended lecture sequence. Transition into 
 
 ---
 
-Repository Update Status
+# Repository Update Status
 
 Following this session, durable instructional discoveries warrant updates to:
 
@@ -418,7 +418,7 @@ Existing repository documents already provide the appropriate durable locations.
 
 ---
 
-Exact Recommended Next Step
+# Exact Recommended Next Step
 
 Continue:
 
@@ -445,7 +445,7 @@ Then complete the Module 0.1 assessment before progressing according to the syll
 
 ---
 
-Next Session Instruction
+# Next Session Instruction
 
 At the start of the next session:
 
@@ -462,7 +462,7 @@ At the start of the next session:
 
 ---
 
-Last Updated
+# Last Updated
 
 Date: 2026-08-09
 
