@@ -1,6 +1,6 @@
-# Current Progress
+Current Progress
 
-## Purpose
+Purpose
 
 This file is the living progress record for the AI Curriculum.
 
@@ -13,403 +13,461 @@ It should provide enough current-state information for a new ChatGPT conversatio
 - What labs or assessments have been completed.
 - What questions remain open.
 - What should happen next.
+- What durable instructional adaptations have been discovered.
+
+The repository is the durable source of truth.
+
+Individual ChatGPT conversations are temporary instructional sessions and should not be relied upon as the permanent course record.
 
 This file should be updated at meaningful learning boundaries, especially before beginning a fresh ChatGPT conversation.
 
-The repository is the durable source of truth. Individual ChatGPT conversations are temporary instructional sessions.
+---
+
+Current Course Status
+
+Course Stage: Active Coursework
+
+Session Zero Status: Complete
+
+Current Phase: Phase 0 — Technical Orientation and Baseline
+
+Current Module: Module 0.1 — Mapping the Technical World
+
+Completed Lessons:
+
+1. Lesson 1 — What Does a Computer Actually Do?
+2. Lesson 2 — What Is Computation?
+3. Lesson 3 — Hardware Versus Software
+4. Lesson 4 — What Is a Program?
+5. Lesson 5 — What Is Data?
+
+Current / Next Lesson:
+
+Lesson 6 — Traditional Software Versus AI Systems
+
+Learning Status: Ready to continue
 
 ---
 
-# Current Course Status
+Module 0.1 Progress
 
-**Course Stage:** Session Zero — Learning System Design
+Lesson 1 — What Does a Computer Actually Do?
 
-**Session Zero Status:** Complete
+Status: Completed
 
-**Actual Coursework Status:** Not yet started
+Established the high-level mental model that computers ultimately execute very small, literal operations extremely quickly.
 
-**Current Phase:** Phase 0 — Technical Orientation and Baseline
+Covered:
 
-**Current Module:** Module 0.1 — Mapping the Technical World
+- Binary as a representation grounded in physical electronic states.
+- Transistors as tiny electronic switches.
+- CPU as an instruction-executing processor.
+- RAM as temporary working space.
+- Storage as persistent storage.
+- Operating systems as coordination layers.
+- Applications as software above the operating system.
+- AI ultimately running on ordinary computing hardware.
+- The preliminary stack of:
+  - Hardware.
+  - Operating system.
+  - Applications.
+  - AI models.
+  - Agents.
+  - Larger AI systems.
 
-**Current Lesson:** Lesson 1 — What Does a Computer Actually Do?
+Demonstrated understanding:
 
-**Learning Status:** Ready to Begin
-
----
-
-# Session Zero Completion
-
-The foundational learning system has been designed and established.
-
-The following core documents have been created:
-
-- `README.md`
-- `docs/course_charter.md`
-- `docs/learning_profile.md`
-- `docs/instructor_operating_guidelines.md`
-- `docs/curriculum_architecture.md`
-- `docs/concept_dependency_map.md`
-- `docs/syllabus.md`
-- `docs/session_template.md`
-- `docs/progress_tracking.md`
-- `docs/reflection_system.md`
-- `docs/handoff_protocol.md`
-- `docs/question_backlog.md`
-- `docs/repository_structure.md`
-
-The GitHub repository has been created and will serve as the durable source of truth for the learning journey.
+- Computers operate using binary representations.
+- Hardware physically implements the states behind binary.
+- Computers execute logic-based sequences.
+- CPU, memory, storage, operating systems, and applications have different roles.
+- Complex behavior can emerge from enormous numbers of simple operations.
+- AI ultimately depends on ordinary computing machinery.
 
 ---
 
-# Learning System Decisions
+Lesson 2 — What Is Computation?
 
-The following major decisions were established during Session Zero.
+Status: Completed
 
-## Repository as Source of Truth
+Core mental model:
 
-The GitHub repository will preserve durable course state, including:
+«Computation is the process of taking information or state, applying operations or rules to it, and producing a new result or state.»
 
-- Curriculum structure.
-- Learning rules.
-- Progress.
-- Labs.
-- Assessments.
-- Reflections.
-- Questions.
-- Session handoffs.
-- Future projects and learning artifacts.
+Useful simplified pattern:
 
-ChatGPT conversation history should not be treated as the permanent storage mechanism for the course.
+Input → Computation → Output
 
----
+Demonstrated understanding through the Spotify recommendation example:
 
-## Chat Continuity Strategy
+- Listening history can serve as input.
+- The system performs computation by analyzing or processing that information.
+- Recommendations are the resulting output.
 
-The course will use a hybrid continuity model.
-
-### ChatGPT Conversations
-
-Fresh ChatGPT conversations should be started at natural boundaries when doing so keeps context manageable.
-
-Possible boundaries include:
-
-- Completion of a module.
-- Completion of a major lab.
-- Completion of a project milestone.
-- Major topic transitions.
-- Excessive conversation length.
-- Context becoming difficult to manage.
-
-### Repository Progress
-
-The repository will preserve the durable state between those conversations.
-
-When beginning a future learning session, the learner may provide the current repository to ChatGPT and ask to continue from the current progress state.
-
-The instructor should inspect:
-
-1. `progress/current_progress.md`
-2. The latest handoff, when one exists.
-3. Relevant core course documents.
-4. Relevant lesson or lab files.
-
-This should allow a fresh conversation to continue without requiring the entire previous chat history.
+The learner does not need further basic repetition of input → computation → output unless a later misunderstanding appears.
 
 ---
 
-# Teaching Model
+Lesson 3 — Hardware Versus Software
 
-The course will use a conversational, instructor-led learning style.
+Status: Completed at the level required for Module 0.1
 
-Primary characteristics include:
+Covered:
 
-- Voice or conversational learning when useful.
-- Highly granular explanations.
-- Small learning increments.
-- Understanding before implementation.
-- Why before how.
-- Foundations before abstractions.
-- Frequent mental-model checks.
-- Hands-on labs.
-- Practical examples.
-- Visual explanations when they improve understanding.
-- Active learner reasoning.
-- Assessment based on demonstrated understanding rather than lesson completion.
+- Hardware as the physical computing machinery.
+- Software as instructions and organized behavior running on hardware.
+- Operating systems as an intermediate coordination layer.
+- Applications using operating-system services.
+- Higher-level software depending on lower-level layers.
+- The usefulness of reasoning about which layer owns a problem.
 
-The instructor should actively prevent excessively large jumps in complexity.
+The learner showed useful layer-based troubleshooting intuition.
+
+Example:
+
+If a web application does not load, the learner naturally identified the network connection as an early layer to investigate rather than assuming the AI model itself was the problem.
 
 ---
 
-# Current Learning Profile
+Lesson 4 — What Is a Program?
 
-Current starting assumptions include:
+Status: Completed
 
-## Likely Strengths
+Core mental model:
 
-- Logical reasoning.
-- Systems thinking.
-- Understanding workflows and dependencies.
-- Curiosity about how technology works underneath the interface.
-- Interest in practical AI systems.
-- Willingness to ask why.
-- Some familiarity with AI tools and agent concepts.
-- Some experience with GitHub at a basic user level.
-- Experience using AI-assisted development tools.
+«A program is an organized set of instructions that describes useful computation.»
 
-## Areas Requiring Formal Foundations
+Covered:
 
-The course should explicitly establish understanding of:
+- Humans normally write instructions at a higher level than raw machine instructions.
+- Programming languages allow humans to express instructions in manageable forms.
+- Lower layers ultimately translate or interpret those instructions into operations hardware can execute.
+- One high-level action may result in very many lower-level operations.
+- Abstraction allows programmers to work without manually controlling every hardware operation.
 
-- Computer fundamentals.
-- Operating systems.
-- Files and directories.
-- Command line.
-- Git.
-- GitHub.
-- Programming fundamentals.
-- Python.
-- Networking.
-- HTTP.
-- JSON.
+Demonstrated understanding:
+
+The learner correctly identified the Python file or program as the place where the programmer's high-level instructions live.
+
+The learner also correctly distinguished visible program output from the underlying computation that produced it.
+
+---
+
+Lesson 5 — What Is Data?
+
+Status: Completed, with one useful clarification
+
+Core mental model:
+
+«Data is information represented in a form a computer can store, manipulate, transmit, or interpret according to agreed rules.»
+
+Covered:
+
+- Text, images, audio, numbers, AI parameters, and other information can all be represented as data.
+- At the lowest level, the hardware ultimately operates on binary states.
+- Higher-level representations allow us to think in terms of characters, pixels, numbers, records, and other useful abstractions.
+- Meaning depends on interpretation and representation, not merely on the raw bit pattern.
+
+Clarification Discovered
+
+When discussing an image, the learner initially described the squares as corresponding directly to the binary code needed to display the picture.
+
+Correction:
+
+At the useful conceptual layer, the squares correspond to pixel values representing properties such as color and brightness. Those pixel values are themselves ultimately encoded in binary.
+
+This was a refinement rather than a major misconception.
+
+---
+
+Material Introduced Ahead of the Formal Sequence
+
+During the session, the conversation occasionally moved ahead of the formal syllabus.
+
+Topics introduced included:
+
+- Traditional software versus AI responsibilities.
+- Using AI only for portions of a workflow that benefit from model capabilities.
+- Libraries.
 - APIs.
-- Databases.
-- SQL.
-- AI and machine-learning foundations.
-- LLMs.
-- Model APIs.
-- Embeddings.
-- RAG.
-- Tool calling.
-- Agents.
-- Memory and state.
-- Orchestration.
-- Containers.
-- Local AI.
-- Cloud AI.
-- AI systems engineering.
-- AI architecture.
+- AI service calls.
+- Application orchestration.
+- Conventional code surrounding AI components.
+- Failure handling and fallbacks.
+- A Career OS-style workflow containing both traditional software and AI steps.
 
-Recognition of terminology should not automatically be treated as understanding.
+These topics should not automatically be marked complete merely because they were discussed.
+
+The formal syllabus sequence remains authoritative.
+
+The next session should resume at Lesson 6 and establish these ideas cleanly in prerequisite order.
 
 ---
 
-# Understanding Status
+Current Understanding Status
 
-## Strong
+Strong / Functional
 
-None formally assessed yet.
+The learner currently demonstrates functional or stronger understanding of:
 
-## Functional
+- Computers as instruction-executing systems rather than magical reasoning machines.
+- Basic distinction between CPU, RAM, storage, operating system, and applications.
+- Input → computation → output.
+- Programs as organized instructions.
+- High-level instructions versus underlying machine operations.
+- Abstraction layers.
+- Basic distinction between hardware and software.
+- Data as represented information.
+- Layer-based systems thinking.
+- The idea that AI is one component within a larger software system rather than the entire system.
 
-None formally assessed yet.
+The learner is progressing faster through these orientation concepts than the original highly granular starting assumptions suggested.
 
-## Developing
-
-Existing informal familiarity with:
-
-- AI tools.
-- Agent concepts.
-- Workflow concepts.
-- Local versus cloud AI concepts.
-- AI-assisted development.
-- Basic GitHub usage.
-
-These statuses have not yet been formally assessed.
-
-## Needs Reinforcement
-
-None formally identified yet.
-
-Formal baseline diagnosis has not yet begun.
+Do not artificially slow the course when demonstrated understanding is already stable.
 
 ---
 
-# Labs Completed
+Developing
 
-None.
+The following have been introduced but should be formally developed according to the syllabus:
 
-Actual coursework has not yet begun.
-
----
-
-# Assessments Completed
-
-None.
-
-The initial baseline diagnostic will occur during Phase 0.
+- Traditional software versus AI systems.
+- What a model actually is.
+- How model behavior differs from deterministic software logic.
+- What physically happens when an AI application receives a request.
+- Local versus cloud computation.
+- Modern AI application architecture.
+- APIs and service boundaries.
 
 ---
 
-# Projects Completed
+Needs Reinforcement
 
-None as part of this curriculum.
+No major reinforcement queue currently exists.
 
-Previous projects and experiences may be used later as case studies where educationally appropriate.
+Minor clarification to retain:
 
----
+- Distinguish a useful high-level data representation, such as pixels, from the binary encoding underneath that representation.
 
-# Current Reinforcement Queue
-
-None.
-
-This queue should begin only after actual learning evidence identifies concepts requiring reinforcement.
+This does not require dedicated remediation unless it reappears.
 
 ---
 
-# Current Question Backlog
+Learning Evidence and Instructional Adaptations
 
-The course-design process identified several future areas of curiosity, including:
+Several durable learning-style findings were established during the first active coursework sessions.
 
-- Home AI infrastructure versus cloud infrastructure.
-- Local AI models.
-- AI agents.
-- Multi-agent systems.
-- Agent memory.
-- AI coding agents.
-- AI development platforms.
-- MCP.
-- Self-hosted AI workspaces.
-- Odysseus / Project Odysseus.
-- Open-source repository analysis.
-- AI-enabled automation.
-- Practical AI systems for home and professional use.
+Instructor-Led Teaching Works Better Than Continuous Socratic Teaching
 
-These questions should be addressed according to prerequisite order rather than immediately.
+The learner prefers the instructor to teach coherent conceptual chunks first.
 
-Detailed backlog rules are maintained in:
+Questions should primarily be used as:
 
-`docs/question_backlog.md`
+- Checkpoints.
+- Diagnostic tools.
+- Reasoning exercises.
+- Teach-backs at meaningful boundaries.
+
+Do not ask a new question after every sentence or micro-concept.
+
+Preferred rhythm:
+
+Teach → Example → Connect → Checkpoint → Continue
 
 ---
 
-# Repository Status
+Avoid Repetition After Demonstrated Understanding
 
-The initial repository architecture is established.
+Repeatedly restating the same mental model after the learner has demonstrated understanding reduces momentum.
 
-Current active structure:
+Once understanding is sufficiently demonstrated:
 
-- Root README.
-- Core system documentation in `docs/`.
-- Living progress record in `progress/`.
+- Record it.
+- Build forward.
+- Spiral back later if needed.
 
-Additional folders should be created only when actual learning produces artifacts that belong in them.
-
-Future folders may include:
-
-- `lessons/`
-- `notes/`
-- `labs/`
-- `projects/`
-- `assessments/`
-- `reflections/`
-- `handoffs/`
-- `backlog/`
-- `references/`
-- `assets/`
-
-Do not create these folders merely to make the repository look complete.
-
-Create them when the first real artifact requires them.
+Granularity should mean sufficient depth and clear decomposition, not artificially slow pacing.
 
 ---
 
-# Git and GitHub Status
+Voice Is Preferred for Conceptual Learning
 
-The AI Curriculum repository has been created in GitHub.
+Voice conversation works well for:
 
-Current GitHub experience is beginner-level.
+- Concept teaching.
+- Mental-model development.
+- Architecture discussion.
+- Reasoning.
+- Reflection.
+- Verbal checkpoints.
+- Connecting concepts.
 
-Git and GitHub will be taught formally as part of the curriculum rather than assuming repository creation equals understanding of version control.
+A useful startup workflow for future sessions is:
 
-Early Git/GitHub instruction should include:
+1. Open a fresh ChatGPT conversation only when a new conversation is actually warranted.
+2. Enter voice mode.
+3. Paste the prepared curriculum handoff/startup prompt into that voice conversation.
+4. Provide the newest repository version.
+5. Have the instructor inspect the repository and resume from the exact course position.
 
-- What Git is.
-- What GitHub is.
-- Why they are different.
-- Repositories.
-- Commits.
-- Staging.
-- Diffs.
-- Branches.
-- Merging.
-- Recovery.
-- Remote repositories.
-- Safe AI-assisted development practices.
-
-The current repository itself may be used as a practical learning environment later.
+The instructor cannot assume the learner wants a new chat after each lesson.
 
 ---
 
-# Session Zero Outcome
+Text Should Be Used Deliberately for Labs
 
-Session Zero successfully established the skeleton of the learning system.
+When a lesson reaches a point where code, commands, repository editing, debugging, diagrams, structured data, or other visual material becomes central, the instructor should explicitly recommend temporarily leaving voice and switching to text.
 
-The system now has:
+Expected pattern:
 
-- A North Star.
-- A Course Charter.
-- Instructor Operating Guidelines.
-- A Learning Profile.
-- Curriculum Architecture.
-- A Concept Dependency Map.
-- A Detailed Syllabus.
-- A Session Template.
-- A Progress Tracking System.
-- A Reflection System.
-- A Chat Handoff Protocol.
-- A Question Backlog System.
-- A Repository Structure.
+Voice concept instruction → Text-based lab → Voice debrief when useful
 
-The system design phase is sufficiently complete to begin actual learning.
-
-Further system documents should not be created unless an actual need emerges.
-
-The priority should now shift from designing the course to using the course.
+This should be treated as a normal part of the curriculum rather than a disruption.
 
 ---
 
-# Exact Recommended Next Step
+Chat Continuity Strategy
 
-Begin actual coursework.
+Do not create a new conversation after every lesson.
 
-## Phase 0 — Technical Orientation and Baseline
+Continue within the current conversation while:
 
-### Module 0.1 — Mapping the Technical World
+- Context remains coherent.
+- Performance remains good.
+- Several connected lessons can naturally be taught together.
 
-### Lesson 1 — What Does a Computer Actually Do?
+Begin a new conversation when:
 
-The first learning session should begin conversationally.
+- A module or major learning boundary is reached.
+- A substantial lab or assessment creates a natural transition.
+- Conversation length becomes excessive.
+- Context quality begins deteriorating.
+- A fresh context would materially improve instruction.
 
-The instructor should not assume zero knowledge.
+The learner may also choose the transition point.
 
-The session should establish a foundational mental model of:
-
-- Computation.
-- Hardware.
-- Software.
-- Instructions.
-- Data.
-- Programs.
-
-The learner should be encouraged to explain existing assumptions before the instructor fills in gaps.
-
-The lesson should remain granular and interactive rather than becoming a long lecture.
+When transitioning, generate a compact startup/handoff prompt.
 
 ---
 
-# Next Session Startup Instruction
+Labs Completed
 
-When beginning the next learning session, use an instruction similar to:
+None yet.
 
-> We are continuing my AI Curriculum learning journey. The repository is the source of truth. Read `progress/current_progress.md` and use the Course Charter, Instructor Operating Guidelines, Learning Profile, syllabus, and dependency map as needed. Session Zero is complete. Begin the exact recommended next lesson and follow the established teaching model. Do not redesign the curriculum unless we discover a genuine problem with it.
+This is appropriate for the current point in Module 0.1.
+
+Labs remain an important part of the curriculum and should begin when the prerequisites make hands-on work educationally useful rather than being added merely for activity.
+
+Early labs should remain small and focused.
+
+When a lab begins, the instructor should explicitly indicate whether the learner should switch from voice to text.
 
 ---
 
-# Last Updated
+Assessments Completed
 
-**Date:** 2026-08-08
+No formal assessment completed yet.
 
-**Course State:** Session Zero complete; ready to begin Phase 0, Module 0.1, Lesson 1.
+Informal verbal checkpoints have provided useful learning evidence.
 
-**Next Lesson:** What Does a Computer Actually Do?
+The formal Module 0.1 assessment remains ahead.
+
+---
+
+Projects Completed
+
+None as part of the formal curriculum.
+
+Existing projects may be used as examples when they illuminate a concept without allowing the project to dictate the curriculum sequence.
+
+---
+
+Reinforcement Queue
+
+No dedicated reinforcement currently required.
+
+Monitor:
+
+- Data representation versus underlying binary encoding.
+
+---
+
+Question / Curiosity Notes
+
+The learner asked when labs would begin and confirmed that hands-on work remains an important expected part of the curriculum.
+
+Instructional implication:
+
+Do not allow the course to become an extended lecture sequence. Transition into practical exercises and labs when prerequisites make them meaningful.
+
+---
+
+Repository Update Status
+
+Following this session, durable instructional discoveries warrant updates to:
+
+- "docs/learning_profile.md"
+- "docs/instructor_operating_guidelines.md"
+- "progress/current_progress.md"
+
+No new learning-adjustment markdown file is necessary.
+
+Existing repository documents already provide the appropriate durable locations.
+
+"docs/handoff_protocol.md" already establishes that a new chat should not be created after every small lesson, so no structural change is currently necessary there.
+
+---
+
+Exact Recommended Next Step
+
+Continue:
+
+Phase 0 — Technical Orientation and Baseline
+
+Module 0.1 — Mapping the Technical World
+
+Lesson 6 — Traditional Software Versus AI Systems
+
+Primary objective:
+
+Develop a clean mental model of how traditional deterministic software differs from machine-learning or AI model behavior, while also understanding how both can coexist inside the same application.
+
+Do not skip directly to detailed API instruction simply because APIs were informally introduced during the previous session.
+
+After Lesson 6, continue according to the repository sequence:
+
+7. What Is a Model?
+8. What Physically Happens When an AI Application Receives a Request?
+9. Local Computing Versus Cloud Computing.
+10. First Map of the Modern AI Technology Stack.
+
+Then complete the Module 0.1 assessment before progressing according to the syllabus.
+
+---
+
+Next Session Instruction
+
+At the start of the next session:
+
+1. Inspect the newest repository.
+2. Read "progress/current_progress.md" first.
+3. Review "docs/course_charter.md", "docs/instructor_operating_guidelines.md", "docs/learning_profile.md", "docs/syllabus.md", "docs/concept_dependency_map.md", and "docs/session_template.md" as needed.
+4. Resume at the exact current course position.
+5. Teach primarily in coherent instructor-led chunks.
+6. Use checkpoint questions selectively.
+7. Do not repeat concepts already demonstrated unless needed.
+8. Maintain forward momentum.
+9. Recommend switching from voice to text when a lab or visual/code-heavy activity makes text the better medium.
+10. Keep the repository as the durable source of truth.
+
+---
+
+Last Updated
+
+Date: 2026-08-09
+
+Course State: Active coursework underway.
+
+Current Position: Phase 0 → Module 0.1 → Lesson 6.
+
+Next Lesson: Traditional Software Versus AI Systems.
